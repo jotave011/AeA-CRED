@@ -52,6 +52,9 @@ header a.cta-header {
   font-size: 0.9rem;
   transition: transform 0.2s, background 0.2s;
   white-space: nowrap;
+  float: right;
+  margin-right: 890px;
+
 }
 
 header a.cta-header:hover {

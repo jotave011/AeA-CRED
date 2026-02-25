@@ -38,6 +38,7 @@ header {
   font-size: 2rem;
   color: var(--white);
   letter-spacing: 2px;
+  margin: auto;
 }
 
 .logo span { color: var(--yellow); }
@@ -136,7 +137,7 @@ header a.cta-header:hover {
 
 .hero h1 {
   font-family: 'Bebas Neue', cursive;
-  font-size: clamp(3rem, 7vw, 5.5rem);
+  font-size: clamp(3rem, 4vw, 5.5rem);
   color: var(--white);
   line-height: 1;
   margin-bottom: 10px;
@@ -216,13 +217,13 @@ header a.cta-header:hover {
   display: block;
   font-family: 'Bebas Neue', cursive;
   font-size: 2.2rem;
-  color: var(--yellow);
+  color: #0a1f44;
   line-height: 1;
 }
 
 .stat span {
   font-size: 0.9rem;
-  color: rgba(255,255,255,0.65);
+  color: #1a2340;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -241,7 +242,7 @@ header a.cta-header:hover {
 .section-title h2 {
   font-family: 'Bebas Neue', cursive;
   font-size: clamp(2rem, 5vw, 3rem);
-  color: #0a1f44;
+  color: black;
   letter-spacing: 1px;
 }
 
@@ -250,15 +251,14 @@ header a.cta-header:hover {
 }
 
 .section-title p {
-  color: #5a6a8a;
-  font-size: 1.05rem;
+  color: black;
+  font-size: 1.20rem;
   margin-top: 8px;
 }
 
 .section-title .line {
   width: 60px;
   height: 4px;
-  background: var(--yellow);
   margin: 12px auto 0;
   border-radius: 2px;
 }
@@ -382,6 +382,12 @@ header a.cta-header:hover {
   margin-bottom: 24px;
 }
 
+.destaque {
+  color: var(--yellow);
+  font-size: 1.1rem;
+}
+
+
 .product-features {
   list-style: none;
   margin-bottom: 28px;
@@ -425,7 +431,7 @@ header a.cta-header:hover {
 /* HOW IT WORKS */
 .how {
   padding: 80px 5%;
-  background: white;
+  background: linear-gradient(135deg,  white 50%, #243c65 50%);;
 }
 
 .steps {
@@ -472,14 +478,14 @@ header a.cta-header:hover {
 
 .step h3 {
   font-weight: 800;
-  color: var(--navy);
+  color: black;
   margin-bottom: 8px;
   font-size: 1rem;
 }
 
 .step p {
-  font-size: 0.85rem;
-  color: #5a6a8a;
+  font-size: 1.10rem;
+  color: black;
   line-height: 1.5;
 }
 
@@ -512,7 +518,7 @@ header a.cta-header:hover {
 /* REVIEWS */
 .reviews {
   padding: 80px 5%;
-  background: white;
+  background:  linear-gradient(135deg,  #e6bb00 50%, #1a2340 50%);
 }
 
 .reviews-grid {
@@ -524,7 +530,7 @@ header a.cta-header:hover {
 }
 
 .review-card {
-  background: var(--gray);
+  background: #2a4a9a;
   border-radius: 16px;
   padding: 28px;
 }
@@ -533,7 +539,7 @@ header a.cta-header:hover {
 
 .review-card p {
   font-size: 0.92rem;
-  color: #3a4a6a;
+  color: white;
   line-height: 1.7;
   font-style: italic;
   margin-bottom: 16px;
@@ -559,8 +565,8 @@ header a.cta-header:hover {
   flex-shrink: 0;
 }
 
-.reviewer strong { display: block; font-size: 0.9rem; color: var(--navy); }
-.reviewer span { font-size: 0.78rem; color: #8a9ab5; }
+.reviewer strong { display: block; font-size: 0.9rem; color: white; }
+.reviewer span { font-size: 0.78rem; color: white; }
 
 /* FOOTER */
 footer {
@@ -906,3 +912,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+

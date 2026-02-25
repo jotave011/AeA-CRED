@@ -20,3 +20,4 @@ document.getElementById('enviarForm').addEventListener('click', function(e) {
 
   window.open('https://wa.me/5549991470867?text=' + encodeURIComponent(msg), '_blank');
 });
+
